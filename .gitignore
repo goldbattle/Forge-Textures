@@ -1,0 +1,24 @@
+# Exclude everything
+/*
+
+# Include our source code
+!/src
+!/eclipse/.metadata
+
+# Include Gradle Build
+!/build.gradle
+!/gradle
+!/gradlew.bat
+!/gradlew
+
+# Core markdown files
+!/etc
+
+# Include Helper Files
+!/help_build.bat
+!/help_setup.bat
+!/help_eclipse.bat
+!/help_idea.bat
+
+# Include gitattributes
+!/.gitattributes
