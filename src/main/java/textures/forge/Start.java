@@ -16,6 +16,7 @@ public class Start {
    * 
    * In the arguments tab add "[YOUR_USERNAME(or email)] [YOUR_PASSWORD]" for the program arguments.
    * Add "-Xincgc -Xmx1024M -Xms1024M -Dfml.ignoreInvalidMinecraftCertificates=true" as a VM argument.
+   * Set working directory (other) to "${workspace_loc}"
    */
   public static void main(String[] args) {
 
