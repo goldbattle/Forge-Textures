@@ -1,9 +1,9 @@
 # Exclude everything
 /*
+/bin
 
 # Include our source code
 !/src
-!/eclipse/.metadata
 
 # Include Gradle Build
 !/build.gradle
@@ -22,3 +22,4 @@
 
 # Include gitattributes
 !/.gitattributes
+!/.gitignore
