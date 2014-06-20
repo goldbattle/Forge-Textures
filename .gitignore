@@ -1,5 +1,6 @@
 # Exclude everything
 /*
+/bin
 
 # Include our source code
 !/src
