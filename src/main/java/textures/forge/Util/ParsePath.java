@@ -6,9 +6,9 @@ public class ParsePath {
   
   public ArrayList ParseBlockPath(String path, String tiles){
     
-    //Standardize input to forward slashes, expand mcpatcher
-    path = path.replaceAll("\\", "/").replace("{mcpatcher}", "assets/minecraft/mcpatcher/ctm/");
-    tiles = tiles.replaceAll("\\", "/").replace("{mcpatcher}", "assets/minecraft/mcpatcher/ctm/");
+    //Standardize input to forward slashes
+    path = path.replaceAll("\\", "/");
+    tiles = tiles.replaceAll("\\", "/");
     
     //Expand domain
     String domain = path.split(":")[0];
@@ -24,6 +24,8 @@ public class ParsePath {
       if (subTile.startsWith("/")){
         subTile = (path + subTile);
       }
+      
+      subTile.replace("{mcpatcher}", "assets/minecraft/mcpatcher/ctm/");
     }
     return pathList;
   }
