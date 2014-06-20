@@ -1,4 +1,4 @@
-package textures.forge.Util;
+package textures.forge.util;
 
 import java.util.*;
 
